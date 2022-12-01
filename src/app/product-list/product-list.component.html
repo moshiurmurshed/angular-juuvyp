@@ -7,7 +7,7 @@
   <button type="button" (click)="share()">Share</button>
   <app-product-alerts
     [product]="product"
-    (notify)="onNotify()"
+    (notify)="onNotify([product])"
   ></app-product-alerts>
 </div>
 
