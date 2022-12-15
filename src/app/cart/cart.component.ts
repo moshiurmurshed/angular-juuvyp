@@ -9,7 +9,7 @@ import { FormBuilder } from '@angular/forms';
 })
 export class CartComponent {
   items = this.cartService.getItems();
-  checkourForm = this.fromBuilder.group({ name: '', address: '' });
+  checkoutForm = this.fromBuilder.group({ name: '', address: '' });
   constructor(
     private cartService: CartService,
     private fromBuilder: FormBuilder
